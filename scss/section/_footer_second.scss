@@ -1,0 +1,29 @@
+#foote_second{
+    margin: 32px 0;
+    .footer_second_content{
+        span{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            font-family: $font_one;
+            color: $color_four;
+        }
+    }
+    .footer_second_item{
+        .footer_second_link{
+            display: flex;
+            column-gap: 32px;
+            align-items: center;
+            li{
+                a{
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-family: $font_one;
+                    font-weight: 500;
+                    color: $color_four;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,130 @@
+#pricing{
+    margin: 126px 0;
+    .pricing_heading{
+        text-align: center;
+        h2{
+            font-size: 48px;
+            line-height: 64px;
+            font-weight: 600;
+            font-family: $font_one;
+            color: $color_four;
+        }
+        p{
+            width: 562px;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 500;
+            font-family: $font_one;
+            color: $color_four;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 16px;
+            margin-bottom: 64px;
+        }
+    }
+    .pricing_content{
+        width: 406px;
+        height: 745px;
+        background-color: $color_five;
+        padding: 64px 77px 62px 48px;
+        border-radius: 12px;
+        transition: all linear 0.3s;
+        &:hover{
+            background-color: $color_two;
+            // clip-path: polygon(51% 48%, 100% 38%, 100% 100%, 0 99%, 0% 38%);
+        }       
+        &:hover h4{
+            color: $color_one;
+        }
+        &:hover p{
+            color: $color_one;
+        }
+        &:hover p{
+            color: $color_one;
+        }
+        &:hover .pricing_inner_wrapper span{
+            color: $color_one;
+        }
+        &:hover .pricing_item_inner .pricing_content_dw{
+            color: $color_one;
+        }
+        &:hover .pricing_item_inner span{
+            color: #FCD980;
+        }
+        &:hover .pricing_cmn_btn button{
+            background-color: #FCD980;
+            color: $color_four;
+            border: none;
+        }
+        .pricing_item_inner{
+            display: flex;
+            align-items: center;
+            margin-left: -5px;
+            .pricing_content_dw{
+                font-size: 38px;
+                line-height: 56px;
+                font-weight: 600;
+                font-family: $font_one;
+                color: $color_four;
+            }
+            span{
+                font-size: 16px;
+                line-height: 28px;
+                font-weight: 400;
+                font-family: $font_one;
+                color: $color_six;
+                text-transform: capitalize;
+                margin-left: 8px;
+            }
+        }
+        h4{
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 500;
+            font-family: $font_one;
+            color: $color_four;
+            margin-top: 20px;
+            margin-bottom: 6px;
+            text-transform: capitalize;
+        }
+        p{
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 500;
+            font-family: $font_one;
+            color: $color_four;
+            margin-bottom: 78px;
+        }
+        .pricing_content_pera{
+            margin-bottom: 50px;
+        }
+        .pricing_inner_wrapper{
+            margin-bottom: 20px;
+            
+            span{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                font-family: $font_one;
+                color: $color_four;
+            }
+        }
+       
+        .pricing_cmn_btn{
+           text-align: center;
+            
+            button{
+                font-size: 18px;
+                line-height: 32px;
+                font-weight: 600;
+                font-family: $font_two;
+                color: $color_five;
+                border-radius: 41px;
+                padding: 16px 77px;
+                background-color: $color_four;
+                margin-top: 79px;
+                border: none;
+            }
+        }
+    }
+}
